@@ -12,11 +12,11 @@
       "dest": "/api/shortlink.py"
     },
     {
-      "src": "/analytics", 
+      "src": "/analytics",
       "dest": "/api/shortlink.py"
     },
     {
-      "src": "/status",
+      "src": "/status", 
       "dest": "/api/shortlink.py"
     },
     {
