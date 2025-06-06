@@ -1,17 +1,18 @@
 {
-  "functions": {
-    "api/shortlink.py": {
-      "runtime": "python3.11",
-      "maxDuration": 10
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/shortlink.py",
+      "use": "@vercel/python"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/create",
       "dest": "/api/shortlink.py"
     },
     {
-      "src": "/analytics",
+      "src": "/analytics", 
       "dest": "/api/shortlink.py"
     },
     {
